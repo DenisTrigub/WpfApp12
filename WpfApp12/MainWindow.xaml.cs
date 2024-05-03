@@ -20,5 +20,15 @@ namespace WpfApp12
         {
             InitializeComponent();
         }
+
+        private void forward(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void back(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

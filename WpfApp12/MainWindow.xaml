@@ -5,8 +5,233 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp12"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="593" Width="800">
     <Grid>
+        <StackPanel>
+            <Label Content="    ЯНВАРЬ" FontSize="25" Width="800" />
+            <TextBlock>
+                    <Run FontSize="20">пн вт ср чт пт</Run>
+                    <Run FontSize="20" Foreground="Red">сб вс</Run>
+            </TextBlock>
+        </StackPanel>
+        <TextBlock Margin="158,68,613,350"> <Run Foreground="Red" Text="1"/>
+            </TextBlock>
+        <WrapPanel Margin="0,89,613,237">
+            <TextBlock Width="170"><Run  Text="  2       3      4     5      6    " />  <Run Foreground="Red" Text="7     8"   /></TextBlock>
+            <TextBlock> <Run Text="  9     10     11   12    13  "/>  <Run Foreground="Red" Text="14   15"/></TextBlock>
+            <TextBlock><Run Text=" 16     17    18   19    20   "/><Run Foreground="Red" Text="21   22"/></TextBlock>
+            <TextBlock><Run Text=" 23     24     25   26   27   "/><Run Foreground="Red" Text="28   29"/></TextBlock>
+            <TextBlock Width="166"><Run Text=" 30     31"/></TextBlock>
+        </WrapPanel>
+        <Grid>
 
+            <StackPanel Margin="203,0,400,259">
+                <Label Content="    ФЕВРАЛЬ" FontSize="25" Width="800" />
+                <TextBlock>
+                   <Run FontSize="20">пн вт ср чт пт</Run>
+                   <Run FontSize="20" Foreground="Red">сб вс</Run>
+                </TextBlock>
+            </StackPanel>
+            <TextBlock Margin="266,68,425,350"> <Run Text="1     2     3    "/> <Run Foreground="Red" Text="4      5"/>
+            </TextBlock>
+            <WrapPanel Margin="203,87,400,239">
+                <TextBlock Width="170"><Run  Text="  6       7      8     9     10  " />  <Run Foreground="Red" Text="11   12"   /></TextBlock>
+                <TextBlock> <Run Text=" 13     14    15   16    17  "/>  <Run Foreground="Red" Text="18   19"/></TextBlock>
+                <TextBlock><Run Text=" 20     21    22   23    24   "/><Run Foreground="Red" Text="25   26"/></TextBlock>
+                <TextBlock><Run Text=" 27     28 "/></TextBlock>
+            </WrapPanel>
+        </Grid>
+        
+        <Grid Margin="192,0,-192,0">
+
+            <StackPanel Margin="203,0,400,259">
+                <Label Content="       МАРТ" FontSize="25" Width="800" />
+                <TextBlock>
+                   <Run FontSize="20">пн вт ср чт пт</Run>
+                   <Run FontSize="20" Foreground="Red">сб вс</Run>
+                </TextBlock>
+            </StackPanel>
+            <TextBlock Margin="266,68,425,350"> <Run Text="1     2     3    "/> <Run Foreground="Red" Text="4      5"/>
+            </TextBlock>
+            <WrapPanel Margin="203,87,400,239">
+                <TextBlock Width="170"><Run  Text="  6       7      8     9     10  " />  <Run Foreground="Red" Text="11   12"   /></TextBlock>
+                <TextBlock> <Run Text=" 13     14    15   16    17  "/>  <Run Foreground="Red" Text="18   19"/></TextBlock>
+                <TextBlock><Run Text=" 20     21    22   23    24   "/><Run Foreground="Red" Text="25   26"/></TextBlock>
+                <TextBlock><Run Text=" 27     28    29   30    31"/></TextBlock>
+            </WrapPanel>
+        </Grid>
+
+        <Grid Margin="382,0,-382,0">
+
+            <StackPanel Margin="203,0,400,259">
+                <Label Content="       АПРЕЛЬ" FontSize="25" Width="800" />
+                <TextBlock>
+           <Run FontSize="20">пн вт ср чт пт</Run>
+           <Run FontSize="20" Foreground="Red">сб вс</Run>
+                </TextBlock>
+            </StackPanel>
+            <TextBlock Margin="266,68,400,350"> <Run Text="                     "/> <Run Foreground="Red" Text="1     2"/>
+            </TextBlock>
+            <WrapPanel Margin="203,87,400,239">
+                <TextBlock Width="170"><Run  Text="  3       4      5     6      7    " />  <Run Foreground="Red" Text="8     9"   /></TextBlock>
+                <TextBlock> <Run Text=" 10     11    12   13    14  "/>  <Run Foreground="Red" Text="15   16"/></TextBlock>
+                <TextBlock><Run Text=" 17     18    19   20    21   "/><Run Foreground="Red" Text="22   23"/></TextBlock>
+                <TextBlock><Run Text=" 24     25    26   27    28   "/><Run Foreground="Red" Text="29   30"/></TextBlock>
+            </WrapPanel>
+        </Grid>
+        <Grid Margin="0,158,0,-158">
+            <StackPanel>
+                <Label Content="       МАЙ" FontSize="25" Width="800" />
+                <TextBlock>
+                    <Run FontSize="20">пн вт ср чт пт</Run>
+                    <Run FontSize="20" Foreground="Red">сб вс</Run>
+                </TextBlock>
+            </StackPanel>
+            <TextBlock Margin="0,68,613,488"> <Run Text="  1       2      3      4     5    "/> <Run Foreground="Red" Text="6     7"   />
+            </TextBlock>
+            <WrapPanel Margin="0,89,613,237">
+                <TextBlock Width="178"><Run  Text="  8       9     10    11   12  " />  <Run Foreground="Red" Text="13   14"   /></TextBlock>
+                <TextBlock Width="170"> <Run Text=" 15     16    17    18   19  "/>  <Run Foreground="Red" Text="20   21"/></TextBlock>
+                <TextBlock Width="178"><Run Text=" 22     23    24    25   26   "/><Run Foreground="Red" Text="27   28"/></TextBlock>
+                <TextBlock><Run Text=" 29     30     31"/></TextBlock>
+            </WrapPanel>
+            <Grid>
+
+                <StackPanel Margin="203,0,400,259">
+                    <Label Content="    ИЮНЬ" FontSize="25" Width="800" />
+                    <TextBlock>
+                   <Run FontSize="20">пн вт ср чт пт</Run>
+                   <Run FontSize="20" Foreground="Red">сб вс</Run>
+                    </TextBlock>
+                </StackPanel>
+                <TextBlock Margin="266,68,425,350"> <Run Text="      1      2    "/> <Run Foreground="Red" Text="3      4"/>
+                </TextBlock>
+                <WrapPanel Margin="203,87,400,239">
+                    <TextBlock Width="170"><Run  Text="  5       6      7     8     9    " />  <Run Foreground="Red" Text="10   11"   /></TextBlock>
+                    <TextBlock> <Run Text=" 12     13    14   15    16  "/>  <Run Foreground="Red" Text="17   18"/></TextBlock>
+                    <TextBlock><Run Text=" 19     20    21   22    23   "/><Run Foreground="Red" Text="24   25"/></TextBlock>
+                    <TextBlock><Run Text=" 26     27    28   29   30 "/></TextBlock>
+                </WrapPanel>
+            </Grid>
+
+            <Grid Margin="192,0,-192,0">
+
+                <StackPanel Margin="203,0,400,259">
+                    <Label Content="       ИЮЛЬ" FontSize="25" Width="800" />
+                    <TextBlock>
+                   <Run FontSize="20">пн вт ср чт пт</Run>
+                   <Run FontSize="20" Foreground="Red">сб вс</Run>
+                    </TextBlock>
+                </StackPanel>
+                <TextBlock Margin="266,68,425,350"> <Run Text="                     "/> <Run Foreground="Red" Text="1     2"/>
+                </TextBlock>
+                <WrapPanel Margin="203,87,400,239">
+                    <TextBlock Width="170"><Run  Text="  3       4      5     6      7    " />  <Run Foreground="Red" Text="8     9"   /></TextBlock>
+                    <TextBlock> <Run Text=" 10     11    12   13    14  "/>  <Run Foreground="Red" Text="15   16"/></TextBlock>
+                    <TextBlock><Run Text=" 17     18    19   20    21   "/><Run Foreground="Red" Text="22   23"/></TextBlock>
+                    <TextBlock><Run Text=" 24     25    26   27    28   "/><Run Foreground="Red" Text="29   30"/></TextBlock>
+                    <TextBlock><Run Text=" 31   "/></TextBlock>
+                </WrapPanel>
+            </Grid>
+
+            <Grid Margin="382,0,-382,0">
+
+                <StackPanel Margin="203,0,400,259">
+                    <Label Content="       АВГУСТ" FontSize="25" Width="800" />
+                    <TextBlock>
+           <Run FontSize="20">пн вт ср чт пт</Run>
+           <Run FontSize="20" Foreground="Red">сб вс</Run>
+                    </TextBlock>
+                </StackPanel>
+                <TextBlock Margin="211,66,400,352"> <Run Text="        1      2      3     4     "/> <Run Foreground="Red" Text="5     6"/>
+                </TextBlock>
+                <WrapPanel Margin="203,87,400,239">
+                    <TextBlock Width="170"><Run  Text="  7       8      9     10   11  " />  <Run Foreground="Red" Text="12   13"   /></TextBlock>
+                    <TextBlock> <Run Text=" 14     15    16   17    18  "/>  <Run Foreground="Red" Text="19   20"/></TextBlock>
+                    <TextBlock><Run Text=" 21     22    23   24    25   "/><Run Foreground="Red" Text="26   27"/></TextBlock>
+                    <TextBlock><Run Text=" 28     29    30   31"/></TextBlock>
+                </WrapPanel>
+            </Grid>
+        </Grid>
+        <Grid Margin="0,162,0,-162">
+            <Grid Margin="0,158,0,-158">
+                <StackPanel>
+                    <Label Content="     СЕНТЯБРЬ" FontSize="25" Width="800" />
+                    <TextBlock>
+            <Run FontSize="20">пн вт ср чт пт</Run>
+            <Run FontSize="20" Foreground="Red">сб вс</Run>
+                    </TextBlock>
+                </StackPanel>
+                <TextBlock Margin="0,68,630,488"> <Run Text="                                  1    "/> <Run Foreground="Red" Text="2     3"   />
+                </TextBlock>
+                <WrapPanel Margin="0,89,613,237">
+                    <TextBlock Width="177"><Run  Text="  4       5      6     7      8    " />  <Run Foreground="Red" Text="9   10"   /></TextBlock>
+                    <TextBlock Width="170"> <Run Text=" 11     12    13   14    15  "/>  <Run Foreground="Red" Text="16   17"/></TextBlock>
+                    <TextBlock Width="170"><Run Text=" 18     19    20   21    22   "/><Run Foreground="Red" Text="23   24"/></TextBlock>
+                    <TextBlock Width="170"><Run Text=" 25     26    27   28    29   "/><Run Foreground="Red" Text="30   31"/></TextBlock>
+                </WrapPanel>
+                <Grid>
+
+                    <StackPanel Margin="203,0,360,259">
+                        <Label Content="    ОКТЯБРЬ" FontSize="25" Width="800" />
+                        <TextBlock>
+           <Run FontSize="20">пн вт ср чт пт</Run>
+           <Run FontSize="20" Foreground="Red">сб вс</Run>
+                        </TextBlock>
+                    </StackPanel>
+                    <TextBlock Margin="266,68,425,350"> <Run Text="                   "/> <Run Foreground="Red" Text="         1"/>
+                    </TextBlock>
+                    <WrapPanel Margin="203,87,400,239">
+                        <TextBlock Width="170"><Run  Text="  2       3      4     5      6    " />  <Run Foreground="Red" Text="7     8"   /></TextBlock>
+                        <TextBlock> <Run Text="  9     10     11   12    13  "/>  <Run Foreground="Red" Text="14   15"/></TextBlock>
+                        <TextBlock><Run Text=" 16     17    18   19    20   "/><Run Foreground="Red" Text="21   22"/></TextBlock>
+                        <TextBlock><Run Text=" 23     24     25   26   27   "/><Run Foreground="Red" Text="28   29"/></TextBlock>
+                        <TextBlock Width="166"><Run Text=" 30     31"/></TextBlock>
+                    </WrapPanel>
+                </Grid>
+
+                <Grid Margin="192,0,-192,0">
+
+                    <StackPanel Margin="203,0,400,259">
+                        <Label Content="       НОЯБРЬ" FontSize="25" Width="800" />
+                        <TextBlock>
+                   <Run FontSize="20">пн вт ср чт пт</Run>
+                   <Run FontSize="20" Foreground="Red">сб вс</Run>
+                        </TextBlock>
+                    </StackPanel>
+                    <TextBlock Margin="266,68,400,350"> <Run Text="1     2     3    "/> <Run Foreground="Red" Text="4      5"/>
+                    </TextBlock>
+                    <WrapPanel Margin="203,87,400,239">
+                        <TextBlock Width="170"><Run  Text="  6       7      8     9     10  " />  <Run Foreground="Red" Text="11   12"   /></TextBlock>
+                        <TextBlock> <Run Text=" 13     14    15   16    17  "/>  <Run Foreground="Red" Text="18   19"/></TextBlock>
+                        <TextBlock><Run Text=" 20     21    22   23    24   "/><Run Foreground="Red" Text="25   26"/></TextBlock>
+                        <TextBlock><Run Text=" 27     28    29   30"/></TextBlock>
+                    </WrapPanel>
+                </Grid>
+
+                <Grid Margin="382,0,-382,0">
+
+                    <StackPanel Margin="203,0,400,259">
+                        <Label Content="       ДЕКАБРЬ" FontSize="25" Width="800" />
+                        <TextBlock>
+   <Run FontSize="20">пн вт ср чт пт</Run>
+   <Run FontSize="20" Foreground="Red">сб вс</Run>
+                        </TextBlock>
+                    </StackPanel>
+                    <TextBlock Margin="211,66,422,352"> <Run Text="                               1    "/> <Run Foreground="Red" Text="2     3"/>
+                    </TextBlock>
+                    <WrapPanel Margin="203,87,400,239">
+                        <TextBlock Width="170"><Run  Text="  4       5      6     7      8    " />  <Run Foreground="Red" Text="9   10"   /></TextBlock>
+                        <TextBlock> <Run Text=" 11     12    13   14    15  "/>  <Run Foreground="Red" Text="16   17"/></TextBlock>
+                        <TextBlock><Run Text=" 18     19    20   21    22   "/><Run Foreground="Red" Text="23   24"/></TextBlock>
+                        <TextBlock><Run Text=" 25     26    27   28    29   "/><Run Foreground="Red" Text="30   31"/></TextBlock>
+                    </WrapPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Margin="754,542,0,10">
+            <Button Content="вперед" Margin="-23,-54,0,0" Click="forward"/>
+            <Button Content="назад" Margin="-755,-54,735,0" Click="back"/>
+        </Grid>
     </Grid>
 </Window>
